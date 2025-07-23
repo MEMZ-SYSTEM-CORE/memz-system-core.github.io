@@ -1,3 +1,3 @@
-var posts=["2025/07/20/公告/"];function toRandomPost(){
+var posts=["2025/07/20/公告/","2025/07/23/edgeone反代GitHub/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
